@@ -1,0 +1,131 @@
+.search {
+    height: 550px;
+    width: 900px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.heading2 {
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading3 {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* search bar */
+form {
+    width: 350px;
+    margin: 30px auto;
+    margin-left: 200px;
+}
+
+.group {
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    background: none;
+    color: #838383;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 320px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+::placeholder {
+    color: #c6c6c6;
+    font-family: "Playfair Display", serif;
+    font-weight: 200;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+input:focus~.bar:before,
+textarea:focus~.bar:before {
+    width: 320px;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 320px;
+}
+
+.bar:before {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: #0779e4;
+    transition: 300ms ease all;
+    left: 0%;
+}
+
+/* search bar end */
+
+.middle3 {
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: -250px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+/* BUTTON PREDICT &RESET */
+.two-btn {
+    font-family: "Playfair Display", serif;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid #0779e4;
+    color: #0779e4;
+    padding: 5px 20px;
+    border-radius: 2px;
+    transition: 0.2s linear;
+}
+
+.predict {
+    margin-right: 102px;
+}
+
+.reset {
+    padding: 5px 30px;
+}
+
+.two-btn:hover {
+    text-decoration: none;
+    background-color: #0779e4;
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+.contact {
+    height: 550px;
+    width: 750px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+.contact-us {
+    font-size: 50px;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-weight: 700;
+}
+
+.shift {
+    padding-left: 10px;
+}
+
+/* share icons */
+
+/* share end */
+.middle2 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: -50px;
+    left: 570px;
+    box-shadow: 15px 15px 5px #ccc;
+}
+
+.predict {
+    margin-right: 102px;
+}
+
+.reset {
+    padding: 5px 30px;
+}
+
+.middle4 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: -350px;
+    box-shadow: 15px 15px 5px #ccc;
+}
+
+.send {
+    font-family: "Playfair Display", serif;
+    background-color: #fff;
+    margin: 10px 0 0 110px;
+}
+
+.social {
+    margin-top: 20px;
+    position: relative;
+    font-size: 8px;
+    text-align: center;
+}
+
+.social-icon:hover {
+    transition: all 0.3s linear;
+    transform: translateY(-10px);
+}
+
+#fab {
+    color: #07689f;
+    padding: 2%;
+}
+
+#twitter {
+    color: #00acee;
+    padding: 2%;
+}
+
+#insta {
+    color: #fb3958;
+    padding: 2%;
+}

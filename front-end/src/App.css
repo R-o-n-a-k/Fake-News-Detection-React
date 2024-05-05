@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../src/assets/images/newspaper.jpg");
+  font-family: "Playfair Display", serif;
+  background-size: cover;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,50 @@
+.goal {
+    height: 550px;
+    width: 1000px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 370px;
+}
+
+/* grid */
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
+    padding: 5px;
+    margin-left: 50px;
+    grid-gap: 3px;
+}
+
+.grid-item {
+    background-color: black;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.goal img {
+    height: 50px;
+    width: 50px;
+}
+
+.hcontent2 {
+    color: red;
+    letter-spacing: 2px;
+}
+
+.content2 {
+    font-size: 16px;
+    text-align: left;
+    color: #ececec;
+}
